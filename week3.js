@@ -12,3 +12,9 @@ const studentName = "Jimmy"
 const schoolName = "Chicago School"
 console.log("My name is " + studentName + ". My student ID is " + studentId + " and I go to " + schoolName + ".")
 
+function area(radius) {
+    return 3.14 * radius * radius
+}
+
+const areaAnswer = area(10)
+console.log(areaAnswer)
