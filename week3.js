@@ -18,3 +18,7 @@ function area(radius) {
 
 const areaAnswer = area(10)
 console.log(areaAnswer)
+
+//git add week3.js
+//git commit -m "(ADD NAME)"
+//git push
