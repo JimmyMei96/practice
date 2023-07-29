@@ -60,3 +60,10 @@ function printTriangle(height) {
 }
 
 printTriangle(10);
+
+let arr = [1, 2, 3];
+while (i < arr.length) {
+  i = i + 1;
+  arr.push(arr.length + i);
+  console.log(arr.length);
+}
