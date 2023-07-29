@@ -50,20 +50,13 @@
 
 //PRINT TRIANGLE
 
-function printTriangle(height) {
-  let i = 1;
+// function printTriangle(height) {
+//   let i = 1;
 
-  while (i < height + 1) {
-    console.log("*".repeat(i));
-    i = i + 1;
-  }
-}
+//   while (i < height + 1) {
+//     console.log("*".repeat(i));
+//     i = i + 1;
+//   }
+// }
 
-printTriangle(10);
-
-let arr = [1, 2, 3];
-while (i < arr.length) {
-  i = i + 1;
-  arr.push(arr.length + i);
-  console.log(arr.length);
-}
+// printTriangle(10);
