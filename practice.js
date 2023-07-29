@@ -35,15 +35,28 @@
 
 //MEDIUM
 
-function getSum(inputNumber) {
-  let sum = 0;
+// function getSum(inputNumber) {
+//   let sum = 0;
 
-  let i = 0;
-  while (i < 100) {
-    sum = sum + i;
+//   let i = 0;
+//   while (i < 100) {
+//     sum = sum + i;
+//     i = i + 1;
+//   }
+//   return sum;
+// }
+
+// console.log(getSum(100));
+
+//PRINT TRIANGLE
+
+function printTriangle(height) {
+  let i = 1;
+
+  while (i < height + 1) {
+    console.log("*".repeat(i));
     i = i + 1;
   }
-  return sum;
 }
 
-console.log(getSum(100));
+printTriangle(10);
