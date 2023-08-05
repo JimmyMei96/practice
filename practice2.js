@@ -112,7 +112,7 @@ const window = {
 
 // console.log(window.isOpen);
 
-let person = {
+const person = {
   firstName: "Jimmy",
   lastName: "Mei",
   printfullName: function () {
