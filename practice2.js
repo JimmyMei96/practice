@@ -110,4 +110,14 @@ const window = {
   },
 };
 
-console.log(window.isOpen);
+// console.log(window.isOpen);
+
+let person = {
+  firstName: "Jimmy",
+  lastName: "Mei",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+console.log(person.fullName());
