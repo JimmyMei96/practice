@@ -115,9 +115,9 @@ const window = {
 let person = {
   firstName: "Jimmy",
   lastName: "Mei",
-  fullName: function () {
+  printfullName: function () {
     return this.firstName + " " + this.lastName;
   },
 };
 
-console.log(person.fullName());
+console.log(person.printfullName());
