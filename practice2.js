@@ -118,6 +118,13 @@ const person = {
   printfullName: function () {
     return this.firstName + " " + this.lastName;
   },
+  age: 14,
+  growOld: function () {
+    this.age = this.age + 1;
+  },
 };
-
-console.log(person.printfullName());
+person.growOld();
+person.growOld();
+person.growOld();
+person.growOld();
+console.log(person.age);
