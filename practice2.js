@@ -79,11 +79,35 @@
 // }
 // joinAndConcat();
 
-let arr1 = [1, 2];
-let arr2 = [3, 4];
-let arr3 = [5, 6];
-let arr4 = arr1.concat(arr2.concat(arr3));
-function aryOfArrays() {
-  console.log(arr4);
-}
-aryOfArrays();
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// let arr3 = [5, 6];
+// let arr4 = arr1.concat(arr2.concat(arr3));
+// function aryOfArrays() {
+//   console.log(arr4);
+// }
+// aryOfArrays();
+
+//OBJECTS
+const game = {
+  name: "Valorant",
+  genre: "First-person Shooter",
+  price: 0,
+};
+game.year = 2020;
+game.genre = "Third-person Shooter";
+delete game.price;
+
+// console.log(game);
+
+const window = {
+  isOpen: false,
+  openWindow: function () {
+    this.isOpen = true;
+  },
+  closeWindow: function () {
+    this.isOpen = false;
+  },
+};
+
+console.log(window.isOpen);
