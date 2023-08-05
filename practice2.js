@@ -38,7 +38,7 @@
 // }
 // modifyArray();
 
-//CONCAT & JOIN
+//CONCAT AND JOIN
 
 // const arr1 = ["Java", 2, 3];
 // const arr2 = [true, 5, "Coffee"];
@@ -79,20 +79,11 @@
 // }
 // joinAndConcat();
 
-// let arr1 = [1, 2];
-// let arr2 = [3, 4];
-// let arr3 = [5, 6];
-// let arr4 = arr1.concat(arr2.concat(arr3));
-// function aryOfArrays() {
-//   console.log(arr4);
-// }
-// aryOfArrays();
-
-let arr1 = [5, 11, 43]
-let arr2 = [26, 3, 6]
-let arr3 = [83, 9, 15]
-let arr4 = arr1.concat(arr2.concat(arr3))
-function numberArrays() {
-    console.log(arr4)
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let arr3 = [5, 6];
+let arr4 = arr1.concat(arr2.concat(arr3));
+function aryOfArrays() {
+  console.log(arr4);
 }
-numberArrays()
+aryOfArrays();
